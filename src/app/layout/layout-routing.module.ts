@@ -8,6 +8,7 @@ const routes: Routes = [
         children: [
             { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule' },
             { path: 'portfolio', loadChildren: './portfolio/portfolio.module#PortfolioModule' },
+            { path: 'analytics', loadChildren: './analytics/analytics.module#AnalyticsModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'tables', loadChildren: './tables/tables.module#TablesModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
