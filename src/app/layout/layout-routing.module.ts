@@ -15,6 +15,7 @@ const routes: Routes = [
             { path: 'cloud-architecture', loadChildren: './cloudarchitecture/cloudarchitecture.module#CloudarchitectureModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'd3charts', loadChildren: './D3charts/D3charts.module#D3chartsModule' },
+            { path: 'contact-me', loadChildren: './contact-me/contact-me.module#ContactMeModule' },
             { path: 'forms', loadChildren: './form/form.module#FormModule' },
             { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
             { path: 'grid', loadChildren: './grid/grid.module#GridModule' },
