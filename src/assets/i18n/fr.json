@@ -1,8 +1,8 @@
 {
     "portfolio": "Portefeuille",
     "dashboard": "tableau de bord",
-    "charts": "hit-parade",
-    "tables": "tableaux",
+    "analytics": "BI/Analytics",
+    "databases": "Databases",
     "froms": "Froms",
     "boostrapElement": "bootstrap élément",
     "boostrapGrid": "bootstrap grille",

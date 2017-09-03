@@ -13,6 +13,7 @@ const routes: Routes = [
             { path: 'fullstack', loadChildren: './fullstack/fullstack.module#FullstackModule' },
             { path: 'big-data', loadChildren: './bigdata/bigdata.module#BigdataModule' },
             { path: 'cloud-architecture', loadChildren: './cloudarchitecture/cloudarchitecture.module#CloudarchitectureModule' },
+            { path: 'analytics-charts', loadChildren: './analytics-charts/analytics-charts.module#AnalyticsChartsModule' },
             { path: 'charts', loadChildren: './charts/charts.module#ChartsModule' },
             { path: 'd3charts', loadChildren: './D3charts/D3charts.module#D3chartsModule' },
             { path: 'contact-me', loadChildren: './contact-me/contact-me.module#ContactMeModule' },

@@ -1,8 +1,8 @@
 {
-    "portfolio": "Portfolio",
+    "portfolio": "General Portfolio",
     "dashboard": "Sites I've Built",
-    "charts": "BI/Analytics",
-    "tables": "Databases",
+    "analytics": "BI/Analytics",
+    "databases": "Databases",
     "fullstack": "Full Stack Development",
     "bigdata": "Big Data",
     "cloud": "Cloud Architecture",

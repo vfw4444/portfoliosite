@@ -7,13 +7,16 @@
             <i class="fa fa-fw fa-dashboard"></i>&nbsp;{{ 'dashboard' | translate }}
         </a>
         <a [routerLink]="['/analytics']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'charts' | translate }}
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'analytics' | translate }}
+        </a>
+        <a [routerLink]="['/analytics-charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+            <i class="fa fa-fw fa-bar-chart-o"></i>&nbsp;{{ 'Analytics Charts' | translate }}
         </a>
         <a [routerLink]="['/d3charts']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-pie-chart"></i>&nbsp;{{ 'D3 Charts' | translate }}
         </a>
         <a [routerLink]="['/databases']" [routerLinkActive]="['router-link-active']" class="list-group-item">
-            <i class="fa fa-fw fa-database"></i>&nbsp;{{ 'tables' | translate }}
+            <i class="fa fa-fw fa-database"></i>&nbsp;{{ 'databases' | translate }}
         </a>
         <a [routerLink]="['/fullstack']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-stack-overflow "></i>&nbsp;{{ 'fullstack' | translate }}
@@ -27,7 +30,7 @@
         <a [routerLink]="['/contact-me']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-phone"></i>&nbsp;{{ 'contactme' | translate }}
         </a>
-        <a [routerLink]="['/forms']" [routerLinkActive]="['router-link-active']" class="list-group-item">
+        <!--<a [routerLink]="['/forms']" [routerLinkActive]="['router-link-active']" class="list-group-item">
             <i class="fa fa-fw fa-edit"></i>&nbsp;{{ 'forms' | translate }}
         </a>
         <a [routerLink]="['/bs-element']" [routerLinkActive]="['router-link-active']" class="list-group-item">
@@ -62,6 +65,6 @@
         </a>
         <a class="list-group-item more-themes" href="http://www.strapui.com/">
             {{ 'moretheme' | translate }}
-        </a>
+        </a>-->
     </ul>
 </nav>

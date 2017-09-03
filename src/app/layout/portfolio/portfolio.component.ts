@@ -8,7 +8,7 @@ import { routerTransition } from '../../router.animations';
     animations: [routerTransition()]
 })
 export class PortfolioComponent implements OnInit {
-    public alerts: Array<any> = [];
+    public imagesItems: Array<any> = [];
     public sliders: Array<any> = [];
 
     constructor() {
@@ -24,30 +24,43 @@ export class PortfolioComponent implements OnInit {
             imagePath: 'assets/images/slider3.jpg',
             label: 'Integration',
             text: 'Cloud Infrastructure'
-        });
-
-        this.alerts.push({
-            id: 1,
-            type: 'success',
-            message: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates est animi quibusdam praesentium quam, et perspiciatis,
-                consectetur velit culpa molestias dignissimos
-                voluptatum veritatis quod aliquam! Rerum placeat necessitatibus, vitae dolorum`
-        }, {
-            id: 2,
-            type: 'warning',
-            message: `Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptates est animi quibusdam praesentium quam, et perspiciatis,
-                consectetur velit culpa molestias dignissimos
-                voluptatum veritatis quod aliquam! Rerum placeat necessitatibus, vitae dolorum`
-        });
+        });  
+        
     }
 
     ngOnInit() {
+        this.getImageItems()
     }
 
-    public closeAlert(alert: any) {
-        const index: number = this.alerts.indexOf(alert);
-        this.alerts.splice(index, 1);
+    public getImageItems() {
+        let items = [
+            {
+                imagePath: 'assets/images/portfolio/certification/certifiedmsnav.jpg',
+                label: 'Mircrosoft Dynamics Certified',
+            },
+            {
+                imagePath: 'assets/images/portfolio/certification/csucircle.jpg',
+                label: 'California State University',
+            },
+            {
+                imagePath: 'assets/images/portfolio/certification/mscertifiedtrainer.jpg',
+                label: 'Mircrosoft Certified Trainer',
+               
+            },
+            {
+                imagePath: 'assets/images/portfolio/certification/mspro.jpg',
+                label: 'Mircrosoft Certified Professional',
+            },
+            {
+                imagePath: 'assets/images/portfolio/certification/pepperdine.jpg',
+                label: 'Pepperdine University',
+            },
+            {
+                imagePath: 'assets/images/portfolio/certification/sage-certified.jpg',
+                label: 'Cage Certified cunsultant',
+            }
+        ]
+
+        this.imagesItems = items
     }
 }

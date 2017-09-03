@@ -1,8 +1,8 @@
 {
     "portfolio": "portafolio",
     "dashboard": "Principal",
-    "charts": "Caracteres",
-    "tables": "Tablas",
+    "analytics": "BI/Analytics",
+    "databases": "Databases",
     "forms": "Formularios",
     "boostrapElement": "Elementos Boostrap",
     "boostrapGrid": "Rejilla Boostrap",
