@@ -1,39 +1,29 @@
-.node {
-    cursor: pointer;
+.image-text {
+    text-align: center;
+    font-size: 14px;
 }
 
-.overlay {
-    background-color: #EEE;
+.item-heading {
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
 }
 
-.node circle {
-    fill: #fff;
-    stroke: steelblue;
-    stroke-width: 1.5px;
+.item-heading .left {
+    margin-left: 100px;
 }
 
-.node text {
-    font-size: 10px;
-    font-family: sans-serif;
+.item-heading .right {
+    margin-right: 50px;
 }
 
-.link {
-    fill: none;
-    stroke: #ccc;
-    stroke-width: 1.5px;
+.image-text span.short-text {
+    width: 56px;
+    display: inline-block;
+    margin-right: 35px;
 }
 
-.templink {
-    fill: none;
-    stroke: red;
-    stroke-width: 3px;
-}
-
-.ghostCircle.show {
-    display: block;
-}
-
-.ghostCircle,
-.activeDrag .ghostCircle {
-    display: none;
+.img-fluid.mx-auto.d-block {
+    width: 120px;
+    height: 150px;
 }

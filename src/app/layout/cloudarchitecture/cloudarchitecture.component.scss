@@ -1,0 +1,24 @@
+.image-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.item-heading {
+    width: 100%;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.item-heading .left {
+    margin-left: 100px;
+}
+
+.item-heading .right {
+    margin-right: 50px;
+}
+
+.image-text span.short-text {
+    width: 56px;
+    display: inline-block;
+    margin-right: 35px;
+}
