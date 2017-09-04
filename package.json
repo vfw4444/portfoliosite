@@ -1,15 +1,21 @@
 {
-    "name": "sb-admin-cli-update",
-    "version": "0.0.0",
+    "name": "Portfolio",
+    "version": "1.0.0",
     "license": "MIT",
     "scripts": {
         "ng": "ng",
-        "start": "ng serve --ec true --port 4201",
+        "start": "node server.js",
+        "start-ng": "ng serve --ec true --port 4201",
         "build": "ng build --prod",
         "gitbuild": "ng build --prod --base /start-angular/SB-Admin-BS4-Angular-4/master/dist/",
-        "test": "ng test",
+        "test-old": "ng test",
+        "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js",
         "lint": "ng lint",
         "e2e": "ng e2e"
+    },
+    "engine": {
+        "node": "*",
+        "npm": "*"
     },
     "private": true,
     "dependencies": {
