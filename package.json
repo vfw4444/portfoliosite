@@ -12,7 +12,8 @@
         "test-old": "ng test",
         "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js",
         "lint": "ng lint",
-        "e2e": "ng e2e"
+        "e2e": "ng e2e",
+        "postinstall": "npm run build"
     },
     "engine": {
         "node": "*",
