@@ -1,39 +1,39 @@
-.node {
+:host ::ng-deep .node {
     cursor: pointer;
 }
 
-.overlay {
+:host ::ng-deep .overlay {
     background-color: #EEE;
 }
 
-.node circle {
+:host ::ng-deep .node circle {
     fill: #fff;
     stroke: steelblue;
     stroke-width: 1.5px;
 }
 
-.node text {
+:host ::ng-deep .node text {
     font-size: 10px;
     font-family: sans-serif;
 }
 
-.link {
+:host ::ng-deep .link {
     fill: none;
     stroke: #ccc;
     stroke-width: 1.5px;
 }
 
-.templink {
+:host ::ng-deep .templink {
     fill: none;
     stroke: red;
     stroke-width: 3px;
 }
 
-.ghostCircle.show {
+:host ::ng-deep .ghostCircle.show {
     display: block;
 }
 
-.ghostCircle,
-.activeDrag .ghostCircle {
+:host ::ng-deep .ghostCircle,
+:host ::ng-deep .activeDrag .ghostCircle {
     display: none;
 }
