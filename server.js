@@ -12,18 +12,17 @@ app.use(morgan('combined'))
 var port = process.env.PORT || process.env.PORT || 8080,
     ip = process.env.IP || process.env.IP || '0.0.0.0'
 
-app.get('/', function(req, res) {
+app.get('/pagecount', function(req, res) {
+    res.send('{ pageCount: -1 }');
+});
+
+app.get('*', function(req, res) {
     // try to initialize the db on every request if it's not already
     // initialized.
     //res.render('dist/index.html', { pageCountMessage: null });
     res.sendFile(__dirname + '/dist/index.html');
 
 });
-
-app.get('/pagecount', function(req, res) {
-    res.send('{ pageCount: -1 }');
-});
-
 // error handling
 app.use(function(err, req, res, next) {
     console.error(err.stack);
