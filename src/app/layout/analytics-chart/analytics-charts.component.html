@@ -1,0 +1,14 @@
+<div class="section">
+    <div class="row">
+        <div class="col-xl-3 col-lg-4 text-xs-center" *ngFor="let item of imagesItems">
+            <div class="">
+                <img class="img-fluid mx-auto d-block" [src]="item.imagePath" alt="item.label">
+                <div class="">
+                    <p class="image-text">{{item.label}}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
