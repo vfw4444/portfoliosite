@@ -8,8 +8,9 @@ import { routerTransition } from '../../router.animations';
     animations: [routerTransition()]
 })
 export class PortfolioComponent implements OnInit {
-    public imagesItems: Array<any> = [];
-    public sliders: Array<any> = [];
+    public imagesItems: Array<any> = []
+    public sliders: Array<any> = []
+    public videoPath: String
 
     constructor() {
         this.sliders.push({
@@ -30,6 +31,7 @@ export class PortfolioComponent implements OnInit {
 
     ngOnInit() {
         this.getImageItems()
+        this.videoPath = 'assets/videos/video.mp4'
     }
 
     public getImageItems() {
