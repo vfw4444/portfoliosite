@@ -53,7 +53,7 @@ export class BigdataComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/databases/xml.jpg',
                 label: 'XML',
-            }
+            },
             {
                 imagePath: 'assets/images/portfolio/bigdata/azurepowerbiembedded.png',
                 label: 'Azure Power BI Embedded',
@@ -61,7 +61,7 @@ export class BigdataComponent implements OnInit {
             
         ]
 
-        this.imagesItems = items
+        this.imagesitems = items
     
     
     }
