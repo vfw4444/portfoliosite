@@ -1,5 +1,5 @@
 import { any } from 'codelyzer/util/function';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ViewEncapsulation } from '@angular/core';
 import { routerTransition } from '../../router.animations';
 declare const d3:any
 declare const $:any
@@ -7,7 +7,8 @@ declare const $:any
     selector: 'app-charts',
     templateUrl: './D3charts.component.html',
     styleUrls: ['./D3charts.component.scss'],
-    animations: [routerTransition()]
+    animations: [routerTransition()],
+    encapsulation: ViewEncapsulation.None
 })
 export class D3chartsComponent implements OnInit {
     
@@ -16,6 +17,7 @@ export class D3chartsComponent implements OnInit {
 
     ngOnInit() {
          this.makeTree()
+         $(".link").css({'fill': 'none', 'stroke': '#ccc', 'stroke-width': '1.5px'});
     }
 
     makeTree() {
