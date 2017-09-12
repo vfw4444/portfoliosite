@@ -24,6 +24,10 @@ export class DatabasesComponent implements OnInit {
                
             },
             {
+                imagePath: 'assets/images/portfolio/databases/msssql.jpg',
+                label: 'Microsoft SQL Server',
+            },
+            {
                 imagePath: 'assets/images/portfolio/databases/msssas.jpg',
                 label: 'Microsoft Analysis Services',
             },
