@@ -46,13 +46,11 @@ export class AnalyticsChartsComponent implements OnInit {
                 imagePath: 'assets/images/portfolio/analytics/azuremachinelearning.jpg',
                 label: 'Azure Machine Learning',
                
-            },
-           
+            },   
             {
                 imagePath: 'assets/images/portfolio/analytics/azurehdinsight.jpg',
                 label: 'Azure HDInsight',
             },
-            
             {
                 imagePath: 'assets/images/portfolio/analytics/dataquality.jpg',
                 label: '|Ensuring Data Quality - from these sources:',
@@ -107,7 +105,6 @@ export class AnalyticsChartsComponent implements OnInit {
                 label: 'Sage Software',
                
             },
-
             {
                 imagePath: 'assets/images/portfolio/analytics/qb.jpg',
                 label: 'QuickBooks',
@@ -116,9 +113,7 @@ export class AnalyticsChartsComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/analytics/qbenterprise.jpg',
                 label: 'QuickBook Enterprise',
-            },
-            
-            
+            }
         ]
 
         this.imagesItems = items

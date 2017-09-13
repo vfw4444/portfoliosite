@@ -25,7 +25,7 @@ export class AnalyticsChartsComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/analytics/tools/XLpowerBI.jpg',
                 label: 'XL powerBI',
-            }
+            },
             {
                 imagePath: 'assets/images/portfolio/analytics/crystal.jpg',
                 label: 'Crystal',
