@@ -10,8 +10,8 @@ export class BigdataComponent implements OnInit {
     constructor() {
         let items = [
             {
-                imagePath: 'assets/images/portfolio/bigdata/apachestorm.jpg',
-                label: 'Apache Storm',
+                imagePath: 'assets/images/portfolio/bigdata/hadoop.png',
+                label: 'Hadoop',
             },
             {
                 imagePath: 'assets/images/portfolio/bigdata/json.jpg',
@@ -21,10 +21,6 @@ export class BigdataComponent implements OnInit {
                 imagePath: 'assets/images/portfolio/bigdata/mongodb.jpg',
                 label: 'MongoDB',
                
-            },
-            {
-                imagePath: 'assets/images/portfolio/databases/azurewebapps.png',
-                label: 'Azure Web Apps',
             },
             {
                 imagePath: 'assets/images/portfolio/databases/msssql.jpg',

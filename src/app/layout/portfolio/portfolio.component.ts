@@ -19,8 +19,8 @@ export class PortfolioComponent implements OnInit {
             text: 'All in One- CRM - Automated SMS, Email, IVR iMarketing'
         }, {
             imagePath: 'assets/images/slider2.jpg',
-            label: 'My CRM',
-            text: 'Online Data Reports '
+            label: 'Custom CRM',
+            text: 'Cloud Analyics Reports '
         }, {
             imagePath: 'assets/images/slider3.jpg',
             label: 'Integration',
@@ -36,30 +36,30 @@ export class PortfolioComponent implements OnInit {
 
     public getImageItems() {
         let items = [
-            {
-                imagePath: 'assets/images/portfolio/certification/certifiedmsnav.jpg',
-                label: 'Mircrosoft Dynamics Certified',
-            },
+           
             {
                 imagePath: 'assets/images/portfolio/certification/csucircle.jpg',
-                label: 'California State University',
-            },
-            {
-                imagePath: 'assets/images/portfolio/certification/mscertifiedtrainer.jpg',
-                label: 'Mircrosoft Certified Trainer',
-               
-            },
-            {
-                imagePath: 'assets/images/portfolio/certification/mspro.jpg',
-                label: 'Mircrosoft Certified Professional',
+                label: 'Bachelors Degree',
             },
             {
                 imagePath: 'assets/images/portfolio/certification/pepperdine.jpg',
-                label: 'Pepperdine University',
+                label: 'MBA studies',
+            },
+            {
+                imagePath: 'assets/images/portfolio/certification/mscertifiedtrainer.jpg',
+                label: 'Microsoft Certified Trainer',
+            },
+            {
+                imagePath: 'assets/images/portfolio/certification/mspro.jpg',
+                label: 'Microsoft Certified Professional',
+            },
+            {
+                imagePath: 'assets/images/portfolio/certification/certifiedmsnav.jpg',
+                label: 'Microsoft Dynamics Certified',
             },
             {
                 imagePath: 'assets/images/portfolio/certification/sage-certified.jpg',
-                label: 'Cage Certified cunsultant',
+                label: 'Sage Certified',
             }
         ]
 

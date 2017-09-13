@@ -11,8 +11,18 @@ export class DatabasesComponent implements OnInit {
 
         let items = [
             {
-                imagePath: 'assets/images/portfolio/databases/hive.png',
+                imagePath: 'assets/images/portfolio/bigdata/hive.jpg',
                 label: 'Hive',
+            },
+            {
+                imagePath: 'assets/images/portfolio/databases/azuresql.png',
+                label: 'Azure SQL Server',
+               
+            },
+            {
+                imagePath: 'assets/images/portfolio/bigdata/hadoop.png',
+                label: 'Hadoop',
+               
             },
             {
                 imagePath: 'assets/images/portfolio/databases/json.jpg',
@@ -36,7 +46,7 @@ export class DatabasesComponent implements OnInit {
                 label: 'Microsoft Reporting Services',
             },
             {
-                imagePath: 'assets/images/portfolio/databases/mysql_logo.png',
+                imagePath: 'assets/images/portfolio/databases/mysql.png',
                 label: 'MySQL',
             },
             {
