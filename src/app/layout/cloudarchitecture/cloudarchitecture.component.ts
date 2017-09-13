@@ -29,8 +29,8 @@ export class CloudarchitectureComponent implements OnInit {
 
         let items = [
             {
-                imagePath: 'assets/images/portfolio/cloud-architecture/image005.png',
-                label: 'Apache Storm',
+                imagePath: 'assets/images/portfolio/bigdata/hadoop.png',
+                label: 'Hadoop',
             },            
             {
                 imagePath: 'assets/images/portfolio/cloud-architecture/image011.jpg',
