@@ -48,24 +48,24 @@
 }
 
 .overlay {
-    background-color: #EEE;
+    background-color: rgba(253, 250, 199, 0.89);
 }
 
 .node circle {
-    fill: #fff;
+    fill: #F97171;
     stroke: steelblue;
     stroke-width: 1.5px;
 }
 
 .link {
     fill: none;
-    stroke: #ccc;
+    stroke: #F70707;
     stroke-width: 1.5px;
 }
 
 .templink {
     fill: none;
-    stroke: red;
+    stroke: #406CF7;
     stroke-width: 3px;
 }
 
