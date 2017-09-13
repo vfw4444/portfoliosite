@@ -22,10 +22,7 @@ export class AnalyticsChartsComponent implements OnInit {
                 imagePath: 'assets/images/portfolio/analytics/apachestorm.jpg',
                 label: 'Apache Storm',
             },
-            {
-                imagePath: 'assets/images/portfolio/analytics/peachtree.jpg',
-                label: 'Peachtree',
-            },
+            
             {
                 imagePath: 'assets/images/portfolio/analytics/azuremachinelearning.jpg',
                 label: 'Azure Machine Learning',
@@ -50,11 +47,6 @@ export class AnalyticsChartsComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/analytics/erp.jpg',
                 label: 'ERP',
-            },
-            {
-                imagePath: 'assets/images/portfolio/analytics/qb.jpg',
-                label: 'Quick Book',
-               
             },
             {
                 imagePath: 'assets/images/portfolio/analytics/qbenterprise.jpg',
@@ -84,27 +76,8 @@ export class AnalyticsChartsComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/analytics/XLpowerBI.jpg',
                 label: 'XL powerBI',
-            },
-            {
-                imagePath: 'assets/images/portfolio/analytics/Customer-ShipTos.jpg',
-                label: 'Customer ShipTo',
-            },
-            {
-                imagePath: 'assets/images/portfolio/analytics/Customer-Trends.jpg',
-                label: 'Customer Trends',
-            },
-            {
-                imagePath: 'assets/images/portfolio/analytics/Top-Customers-and-Top-Products-Sales.jpg',
-                label: 'Top Customers and Top Products Sales',
-            },
-            {
-                imagePath: 'assets/images/portfolio/analytics/Top-Products-by-Sales-ShipTo-Sales.jpg',
-                label: 'Top Products by Sales ShipTo Sales',
-            },
-            {
-                imagePath: 'assets/images/portfolio/analytics/Top-Sales-and-GP-This-Year.jpg',
-                label: 'Top Sales and GP This Year',
             }
+                      
         ]
 
         this.imagesItems = items

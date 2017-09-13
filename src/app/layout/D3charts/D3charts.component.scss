@@ -1,3 +1,8 @@
+:host ::ng-deep .node text {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
 :host ::ng-deep .node {
     cursor: pointer;
 }
@@ -10,11 +15,6 @@
     fill: #fff;
     stroke: steelblue;
     stroke-width: 1.5px;
-}
-
-:host ::ng-deep .node text {
-    font-size: 10px;
-    font-family: sans-serif;
 }
 
 :host ::ng-deep .link {
@@ -35,5 +35,45 @@
 
 :host ::ng-deep .ghostCircle,
 :host ::ng-deep .activeDrag .ghostCircle {
+    display: none;
+}
+
+.node text {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.overlay {
+    background-color: #EEE;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+.templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+}
+
+.ghostCircle.show {
+    display: block;
+}
+
+.ghostCircle,
+.activeDrag .ghostCircle {
     display: none;
 }

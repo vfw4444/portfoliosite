@@ -1,4 +1,15 @@
-<div>
-    <h2 class="text-muted"><b>Big Data</b></h2>
-    <hr>
+<h1><b>Big Data Technologies I've Used</b></h1>
+<div class="section">
+    <div class="row">
+        <div class="col-xl-3 col-lg-3 text-xs-center" *ngFor="let item of imagesitems">
+            <div class="">
+                <img class="img-fluid mx-auto d-block" [src]="item.imagePath" alt="item.label">
+                <div class="">
+                    <p class="image-text">{{item.label}}</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
 </div>

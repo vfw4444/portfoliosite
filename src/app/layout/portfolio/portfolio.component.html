@@ -1,29 +1,28 @@
 <div [@routerTransition]>
-    <h2 class="text-muted"><b>Van Wilson</b> <small><i> &nbsp;&nbsp;   - &nbsp; Full Stack Cloud Development</i> </small></h2>
-    <div class="row">
-        <div class="col-md-12">
-            <ngb-carousel>
-                <ng-template ngbSlide *ngFor="let slider of sliders">
-                    <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%">
-                    <div class="carousel-caption">
-                        <h3>{{slider.label}}</h3>
-                        <p>{{slider.text}}</p>
-                    </div>
-                </ng-template>
-            </ngb-carousel>
-        </div>
-    </div>
-    <hr>
-    <div class="row">
-        <div class="col-xl-3 col-lg-3 text-xs-center" *ngFor="let item of imagesItems">
-            <div class="">
-                <img class="img-fluid mx-auto d-block" [src]="item.imagePath" alt="item.label">
-                <div class="">
-                    <p class="image-text">{{item.label}}</p>
+    <h2 class="text-muted"><b>Van Wilson's Portfolio Demo Site</b> <small><i> &nbsp;&nbsp;   - &nbsp; Full Stack Cloud Development</i> </small></h2>
+    <table border="1" width="100%">
+        <tr>
+            <!-- Row 1 -->
+            <td>
+                <h1> This Site Itself is a demo of my Skills </h1>
+                This site is a Single Page Application (SPA) which means it makes no round trip to the server when you click a menu item. It is highly efficient especially in slow internet connections. It is written in Angular 4, Bootstrap, jquery, in Typescript along
+                with plain old javascript. The Web server is Nodejs and Express as part of the MEAN stack. Some things to try: * Click rapidly between the pages * click the Switch sides button choose the menu item that matches the skills you need on your
+                project. This does not take the place of my resume or interview. Select Contact me menu for contact information. </td>
+            <!-- Col 1 -->
+            <td></td>
+            <!-- Col 2 -->
+        </tr>
+        <tr>
+            <!-- Row 2 -->
+            <td>
+                <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+                <video autoplay loop id="video-background" controls>
+  <source src="{{videoPath}}">
+</video></td>
+            <!-- Col 1 -->
+            <td></td>
+            <!-- Col 2 -->
+        </tr>
+    </table>
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /.row -->
 </div>

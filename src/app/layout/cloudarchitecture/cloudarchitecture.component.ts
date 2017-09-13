@@ -31,16 +31,7 @@ export class CloudarchitectureComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/cloud-architecture/image005.png',
                 label: 'Apache Storm',
-            },
-            {
-                imagePath: 'assets/images/portfolio/cloud-architecture/image007.png',
-                label: 'Apache Spark',
-            },
-            {
-                imagePath: 'assets/images/portfolio/cloud-architecture/image009.png',
-                label: 'Hive',
-                text: ''
-            },
+            },            
             {
                 imagePath: 'assets/images/portfolio/cloud-architecture/image011.jpg',
                 label: 'HDInsight',
@@ -48,18 +39,10 @@ export class CloudarchitectureComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/cloud-architecture/image012.jpg',
                 label: 'Azure Machine Learning',
-            },
-            {
-                imagePath: 'assets/images/portfolio/cloud-architecture/image014.jpg',
-                label: 'Azure SQL Server',
-            },
+            },           
             {
                 imagePath: 'assets/images/portfolio/cloud-architecture/image015.jpg',
                 label: 'MongoDB', 
-            },
-            {
-                imagePath: 'assets/images/portfolio/cloud-architecture/image017.jpg',
-                label: 'Hadoop',
             }
         ]
 
