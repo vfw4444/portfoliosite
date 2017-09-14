@@ -46,7 +46,7 @@ export class DatabasesComponent implements OnInit {
                 label: 'Microsoft Reporting Services',
             },
             {
-                imagePath: 'assets/images/portfolio/databases/mysql.png',
+                imagePath: 'assets/images/portfolio/databases/mysql.jpg',
                 label: 'MySQL',
             },
             {

@@ -23,7 +23,7 @@ export class BigdataComponent implements OnInit {
                
             },
             {
-                imagePath: 'assets/images/portfolio/databases/msssql.jpg',
+                imagePath: 'assets/images/portfolio/databases/mssql.png',
                 label: 'MS SQL Server',
             },
             {
@@ -35,7 +35,7 @@ export class BigdataComponent implements OnInit {
                 label: 'MS Reporting Services',
             },
             {
-                imagePath: 'assets/images/portfolio/databases/azuresql.jpg',
+                imagePath: 'assets/images/portfolio/databases/azuresql.png',
                 label: 'MS Azure SQL', 
             },
             {
@@ -53,6 +53,10 @@ export class BigdataComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/bigdata/azurepowerbiembedded.png',
                 label: 'Azure Power BI Embedded',
+            },
+            {
+                imagePath: 'assets/images/portfolio/cloud-architecture/image011.jpg',
+                label: 'HDInsight',
             }
             
         ]

@@ -1,29 +1,16 @@
 <div [@routerTransition]>
-    <h2 class="text-muted"><b>Van Wilson's Portfolio Demo Site</b> <small><i> &nbsp;&nbsp;   - &nbsp; Full Stack Cloud Development</i> </small></h2>
+    <h1 class="text-lg-center"><b>Van Wilson's Portfolio</b> <small><i> - Full Stack Cloud Development</i> </small></h1>
     <table border="1" width="100%">
         <tr>
             <!-- Row 1 -->
-            <td>
-                <h1> This Site Itself is a demo of my Skills </h1>
-                This site is a Single Page Application (SPA) which means it makes no round trip to the server when you click a menu item. It is highly efficient especially in slow internet connections. It is written in Angular 4, Bootstrap, jquery, in Typescript along
-                with plain old javascript. The Web server is Nodejs and Express as part of the MEAN stack. Some things to try: * Click rapidly between the pages * click the Switch sides button choose the menu item that matches the skills you need on your
-                project. This does not take the place of my resume or interview. Select Contact me menu for contact information. </td>
-            <!-- Col 1 -->
-            <td>
-                <div class="col-xl-3 col-lg-3 text-xs-center" *ngFor="let item of imagesItems">
-                    <div class="">
-                        <img class="mx-auto d-block" [src]="item.imagePath" alt="item.label">
-                        <div class="">
-                            <p class="image-text">{{item.label}}</p>
-                        </div>
-                    </div>
-                </div>
-            </td>
-            <!-- Col 2 -->
-        </tr>
-        <tr>
-            <!-- Row 2 -->
-            <td>
+            <td width="50%">
+                <h1 class="text-md-center"> This Site is a Demo </h1>
+                This is a (MEAN stack) Single Page App (SPA) written in the latest Angular 4, Bootstrap, jquery, in Typescript. The Web server is Nodejs / Express in a docker container in the cloud. The site's not pretty, but BI/Analytics and D3 charts are. I also know Big Data Science, LAMP,.Net, Amazon AWS or Azure.  Some things to try: <br>* Click rapidly between menus <br>* Click the Switch sides button
+                <br>* Choose the menu item by skills in your project. <br> * Click to Move, drag/drop the nodes in D3 demo <br>* Select Contact me menu for contact information. </td>
+
+            <!-- Row 1 col 2 -->
+
+            <td width="50%">
                 <!--  Video autoplays, placed after major DOM elements for performance & has an image fallback  -->
                 <video autoplay loop id="video-background" controls>
                     <source src="{{videoPath}}">
@@ -31,5 +18,17 @@
             </td>
         </tr>
     </table>
-
-</div>
+    
+        
+            <!-- Row 2 images -->
+            <div class="row">
+                <div class="col-md-2 col-sm-2 text-xs-center" *ngFor="let item of imagesItems">
+                   <div class=""> 
+                        <img class="mx-auto d-block" [src]="item.imagePath" alt="item.label"> 
+                        <div class="">
+                            <p class="image-text">{{item.label}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ </div>

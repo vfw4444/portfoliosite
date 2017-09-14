@@ -87,7 +87,7 @@ export class AnalyticsChartsComponent implements OnInit {
                 label: 'SalesForce',
             },
             {
-                imagePath: 'assets/images/portfolio/full-stack/dynamicsNAV.jpg',
+                imagePath: 'assets/images/portfolio/analytics/dynamicsNAV.jpg',
                 label: 'MS Dynamics NAV',
             },
             

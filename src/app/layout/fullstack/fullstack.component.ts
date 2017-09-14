@@ -11,7 +11,7 @@ export class FullstackComponent implements OnInit {
 
         let items = [
             {
-                imagePath: 'assets/images/portfolio/full-stack/net.png',
+                imagePath: 'assets/images/portfolio/full-stack/Stacks/net.png',
                 label: '.NET',
             },
             {
@@ -19,7 +19,7 @@ export class FullstackComponent implements OnInit {
                 label: 'ASP .NET MVC',
             },
             {
-                imagePath: 'assets/images/portfolio/full-stack/c-shop.jpg',
+                imagePath: 'assets/images/portfolio/full-stack/c-sharp.jpg',
                 label: 'C# .NET',
             },
             {
@@ -29,10 +29,6 @@ export class FullstackComponent implements OnInit {
             {
                 imagePath: 'assets/images/portfolio/full-stack/LINQ_logo.jpg',
                 label: 'Microsoft LINQ',
-            },
-            {
-                imagePath: 'assets/images/portfolio/full-stack/msvb.jpg',
-                label: 'Microsoft Visual Studio',
             },
             {
                 imagePath: 'assets/images/portfolio/full-stack/java.jpg',
@@ -139,7 +135,7 @@ export class FullstackComponent implements OnInit {
                 label: 'Word Press',
             },
             {
-                imagePath: 'assets/images/portfolio/full-stack/webapps/wordpress.jpg',
+                imagePath: 'assets/images/portfolio/full-stack/webapps/joomla.jpg',
                 label: 'Joomla',
             },
         ]
